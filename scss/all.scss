@@ -52,7 +52,7 @@ a {
     justify-content: flex-end;
   }
   img {
-    margin-right: 2px;
+    margin-right: 4px;
   }
   &-item {
     display: flex;
@@ -60,7 +60,6 @@ a {
     align-items: center;
     color: #4460a0;
     &:last-child {
-      margin-right: -16px;
       color: #00aaec;
     }
   }
@@ -80,7 +79,8 @@ header {
     display: flex;
     a {
       position: relative;
-      padding: 16px 24px;
+      margin: 0 6px;
+      padding: 16px 8px;
       color: $primary;
       &::after {
         content: "";

@@ -180,7 +180,7 @@ a:hover {
 }
 
 .social img {
-  margin-right: 2px;
+  margin-right: 4px;
 }
 
 .social-item {
@@ -197,7 +197,6 @@ a:hover {
 }
 
 .social-item:last-child {
-  margin-right: -16px;
   color: #00aaec;
 }
 
@@ -226,7 +225,8 @@ header .nav {
 
 header .nav a {
   position: relative;
-  padding: 16px 24px;
+  margin: 0 6px;
+  padding: 16px 8px;
   color: #00cc99;
 }
 
